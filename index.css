@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hero {
+    background: url('https://www.w3schools.com/w3images/coffeehouse.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.hero h1 {
+    font-size: 4rem;
+    padding: 10px 20px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.nav-link{
+    font-size: small;
+    
+}
+
+.nav-link:hover{
+    color: black !important;
+    background-color: white !important;
+}
+
+.hero{
+    height: 700px;
+}
+
+.hora{
+background-color: black;
+bottom: 10px;
+left: 10px;
+height: 30px;
+}
+
+.hora, .street{
+    width: fit-content;
+    padding-inline: 12px;
+    font-size: medium;
+
+}
+
+.street{
+    bottom: 10px;
+    right: 10px;
+    height: 30px;
+}
+
+h2 {
+    background-color: black; /* Sfondo nero */
+    color: white;            /* Testo bianco */
+    display: inline-block;   /* Adatta lo sfondo al testo */
+    padding: 10px 20px;      /* Padding per aggiungere spazio interno */
+    text-align: center;      /* Centra il testo */
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
